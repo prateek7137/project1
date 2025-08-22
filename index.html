@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head >
+        <style>
+            body{background-color: lavender}
+            .heading{
+                color:aqua;
+                font-family: cursive;
+                background-color:aqua;
+                margin:20px;
+            }
+        </style>
+        <title>
+            Project MERN
+        </title>
+    </head>
+    <body>
+        <h1 style="color:red; text-align: center; font-family:poppins"><b>Submit your Project</b></h1>
+        <p style="color:blue; font-size: 25px; font-style: italic; text-align: center;">Please fill out the form below to submit your work</p>
+        <h3 style="text-align: center; font-size:25px ">Registration form</h3>
+        <!FORM CODE STARTS>
+        <form action="action.html" method="post" target="_blank">
+            <fieldset>
+                <legend style="font-family: poppins; margin: 20px; font-size:18px"><b>User Information</b></legend>
+            <label for="username">Enter you name: </label>
+                <input type="text" name="username" size="8" required> <br><br>
+            <label for="age">Enter your Age: </label>
+                <input type="number" name="age"> <br><br>
+            <label for="address">Enter your Address:</label><br>
+                <textarea rows="3" cols="35"></textarea> <br><br>   
+            <label for="password">Enter your password:</label>
+                <input type="password" id = "password" name="password" > <br><br>
+            <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email"> <br><br>
+            <label for="gender">Gender: </label>
+                <input type="radio" id="gender" name="gender" value="Male">Male  
+                <input type="radio" id="gender" name="gender" value="Female">Female  <br><br>
+            <label for="Interests"><h4>Interests:</h4></label>
+            <input type="checkbox" id="interests" name="interests" value="Trading">
+                <label for="Interests">Trading<br></label>
+            <input type="checkbox" id="interests" name="interests" value="Gambling">
+                <label for="Interests">Gambling<br></label>
+            <input type="checkbox" id="interests" name="interests" value="Caseino">
+                <label for="Interests">Caseino<br></label><br>
+            <input type="button" id="submit" name="submit" value="Submit">
+            </fieldset>  <br>
+            <input type="reset" value="Reset Form"> <br> <hr>
+            <label for="Upload your resume">Sumit your Resume: </label>
+            <input type="file" name="upload" id="upload"><br>
+
+        </form><br><hr>
+        <h3><b>Project Submission Table</b></h3>
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Project Title</th>
+        <th>Status</th>    
+    </tr>
+    <tr>
+        <td>Prateek</td>
+        <td>ML Model</td>
+        <td>Completed</td>
+    </tr>
+    <tr>
+        <td>Nitin</td>
+        <td>Not decided</td>
+        <td>Not Completed</td>
+    </tr>  
+    <tr>
+        <td>Lalit</td>
+        <td>Fusion Edit</td>
+        <td>Pending</td>
+    </tr>  
+
+</table><br><br><br>
+<label for="dropdown">Select you Language: </label>
+<select Name = "Dropdown" Size = "0" >
+    <option>
+        Hindi
+    </option>
+    <option>
+        English
+    </option>
+    <option>
+        UAE - Walla Habibi
+    </option>
+</select><hr><br><br>
+
+<label for="audio"><h2>Background Audio</h2></label><br>
+
+<audio controls> 
+    <source src="https://www.soundjay.com/nature/ocean-waves-1.mp3" type="audio/mp3">
+</audio><br>
+<label for="video"><h2>Intro Video</h2></label><br>
+<video width="320" height="240" controls>
+    <source src="" type="video/mp4">
+</video>
+<!iframe width="560" height="400" src="https://youtu.be/vsWxs1tuwDk?si=-a7IxYmILqaAgFwN" title="Youtube Video" allowfullscreen></iframe>
+    </body>
+<hr>
+    <footer>
+        Copyright 2025 | Prateek Singh | Portfolio Sample | Submitted to TuteDude Learning Pvt. Ltd.
+    </footer>
+</html>
